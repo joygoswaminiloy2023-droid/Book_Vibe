@@ -1,16 +1,47 @@
-# React + Vite
+# 📚 Book Library Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive **Book Library web application** built using React. This project allows users to browse books, add them to a wishlist, and mark books as already read. It includes tab-based navigation, dynamic UI updates, and JSON-based data fetching.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+https://melodious-taiyaki-d65ca2.netlify.app/page_to_read
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎯 Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is a modern book management system built with React. It helps users organize books into Wishlist and Read categories while providing a clean and responsive UI.
+
+It demonstrates core frontend concepts like **React Router, state management, component design, and API-style JSON fetching**.
+
+---
+
+## ✨ Features
+
+- 📖 Display list of books dynamically
+- ❤️ Add books to Wishlist
+- 📘 Mark books as Read
+- 🔀 Tab system for Wishlist & Read books
+- 📱 Fully responsive design (mobile, tablet, desktop)
+- ⚡ Fast navigation using React Router
+- 🎨 Modern UI using Tailwind CSS & DaisyUI
+- 📦 JSON-based data loading
+
+---
+
+## 🛠️ Tech Stack
+
+React.js  
+React Router DOM  
+Tailwind CSS  
+DaisyUI  
+JavaScript (ES6+)  
+JSON (Local Data Source)
+
+---
+
+## 📦 Data Source & Fetching
+
+Book data is stored in a local JSON file:
